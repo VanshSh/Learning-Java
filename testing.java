@@ -43,9 +43,7 @@ public class testing {
         String specialStr = "We are the so-called \"Vikings\" from the north.";
         System.out.println("**==** L-44 in testing.java => " + specialStr);
 
-
         // Boolean
-
         boolean first = true;
         System.out.println(" U_U L-50 in testing.java => " + first);
 
@@ -56,6 +54,20 @@ public class testing {
         } else {
             System.out.println(" U_U L-57 in testing.java => " + "You can not vote");
 
+        }
+
+        // Switch
+
+        int day = 4;
+        switch (day) {
+            case 6:
+                System.out.println("Today is Saturday");
+                break;
+            case 7:
+                System.out.println("Today is Sunday");
+                break;
+            default:
+                System.out.println("Looking forward to the Weekend");
         }
     }
 }
