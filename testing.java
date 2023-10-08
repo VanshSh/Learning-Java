@@ -69,5 +69,13 @@ public class testing {
             default:
                 System.out.println("Looking forward to the Weekend");
         }
+
+        // For Each for the arrays
+        String[] cars = { "1", "2", "3", "4", "5" };
+        for (String car : cars) {
+            System.out.println(" U_U L-76 in testing.java => " +car);
+            
+        }
+
     }
 }
