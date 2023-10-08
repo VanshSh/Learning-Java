@@ -73,8 +73,16 @@ public class testing {
         // For Each for the arrays
         String[] cars = { "1", "2", "3", "4", "5" };
         for (String car : cars) {
-            System.out.println(" U_U L-76 in testing.java => " +car);
-            
+            System.out.println(" U_U L-76 in testing.java => " + car);
+        }
+
+        // Multidimensional arrays
+
+        int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 } };
+        for (int i = 0; i < myNumbers.length; ++i) {
+            for (int j = 0; j < myNumbers[i].length; ++j) {
+                System.out.println(" U_U L-84 in testing.java => " + myNumbers[i][j]);
+            }
         }
 
     }
