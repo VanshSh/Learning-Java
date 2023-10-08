@@ -42,5 +42,20 @@ public class testing {
 
         String specialStr = "We are the so-called \"Vikings\" from the north.";
         System.out.println("**==** L-44 in testing.java => " + specialStr);
+
+
+        // Boolean
+
+        boolean first = true;
+        System.out.println(" U_U L-50 in testing.java => " + first);
+
+        int myAge = 23;
+        int votingAge = 18;
+        if (myAge >= votingAge) {
+            System.out.println(" U_U L-55 in testing.java => " + "You can Vote");
+        } else {
+            System.out.println(" U_U L-57 in testing.java => " + "You can not vote");
+
+        }
     }
 }
