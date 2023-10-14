@@ -18,6 +18,15 @@ public class testing {
         return x + y;
     }
 
+    // Recursive function
+    static int sum(int start, int end) {
+        if (end > start) {
+            return end + sum(start, end - 1);
+        } else {
+            return end;
+        }
+    }
+
     public static void main(String[] args) {
 
         System.out.println("Hello Vansh Sharma");
@@ -128,6 +137,10 @@ public class testing {
         } // The block ends here
 
         // Code here CANNOT use x
+
+        // Recursive methods output
+        int result = sum(5, 10);
+        System.out.println(" U_U L-143 in testing.java => " + result);
 
     }
 }
