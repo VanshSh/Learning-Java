@@ -1,5 +1,25 @@
 public class testing {
+    // Methods
+    static void myMethod() {
+        System.out.println(" U_U L-91 in testing.java => " + "I am method ");
+    }
+    // Method with some return
+    static int myMethod(int x, int y) {
+        return x + y;
+    }
+
+      // Method overloading same method 
+      static int plusMethodInt(int x, int y) {
+        return x + y;
+      }
+      
+      static double plusMethodDouble(double x, double y) {
+        return x + y;
+      }
+      
+    
     public static void main(String[] args) {
+
         System.out.println("Hello Vansh Sharma");
         System.out.println("Vansh Sharma");
         System.out.println(3 + 3);
@@ -77,13 +97,26 @@ public class testing {
         }
 
         // Multidimensional arrays
-
         int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 } };
         for (int i = 0; i < myNumbers.length; ++i) {
             for (int j = 0; j < myNumbers[i].length; ++j) {
                 System.out.println(" U_U L-84 in testing.java => " + myNumbers[i][j]);
             }
         }
+        // Method calling
+        myMethod();
+        // Methd with parameters calling
+        System.out.println(" U_U L-101 in testing.java => " + myMethod(5, 3));
 
+        // Overloading method calling
+        int myNum1 = plusMethodInt(8, 5);
+        double myNum2 = plusMethodDouble(4.3, 6.26);
+        System.out.println("int: " + myNum1);
+        System.out.println("double: " + myNum2);
+
+
+        
+    
     }
 }
+
