@@ -3,21 +3,21 @@ public class testing {
     static void myMethod() {
         System.out.println(" U_U L-91 in testing.java => " + "I am method ");
     }
+
     // Method with some return
     static int myMethod(int x, int y) {
         return x + y;
     }
 
-      // Method overloading same method 
-      static int plusMethodInt(int x, int y) {
+    // Method overloading same method
+    static int plusMethodInt(int x, int y) {
         return x + y;
-      }
-      
-      static double plusMethodDouble(double x, double y) {
+    }
+
+    static double plusMethodDouble(double x, double y) {
         return x + y;
-      }
-      
-    
+    }
+
     public static void main(String[] args) {
 
         System.out.println("Hello Vansh Sharma");
@@ -114,9 +114,20 @@ public class testing {
         System.out.println("int: " + myNum1);
         System.out.println("double: " + myNum2);
 
+        // Code here CANNOT use x
 
-        
-    
+        { // This is a block
+
+            // Code here CANNOT use x
+
+            int x = 100;
+
+            // Code here CAN use x
+            System.out.println(x);
+
+        } // The block ends here
+
+        // Code here CANNOT use x
+
     }
 }
-
