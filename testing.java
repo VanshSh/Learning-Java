@@ -1,4 +1,4 @@
-public class testing {
+public class Testing {
     // Methods
     static void myMethod() {
         System.out.println(" U_U L-91 in testing.java => " + "I am method ");
