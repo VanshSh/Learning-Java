@@ -1,4 +1,11 @@
 public class Testing {
+    public void fullThrottlenew() {
+        System.out.println("The car is going as fast as it can!");
+      }
+    
+      public void speednew(int maxSpeed) {
+        System.out.println("Max speed is: " + maxSpeed);
+      }
     // Methods
     static void myMethod() {
         System.out.println(" U_U L-91 in testing.java => " + "I am method ");
