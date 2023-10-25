@@ -9,5 +9,9 @@ public class DateTime {
 
         LocalTime time = LocalTime.now();
         System.out.println(" U_U L-10 in DateTime.java => " + time);
+
+        LocalDateTime myObj = LocalDateTime.now();
+        System.out.println(myObj);
     }
+
 }
