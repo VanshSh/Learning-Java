@@ -18,3 +18,12 @@
 //     }
 
 // }
+
+// Count Number of Words in a String 👇🏻
+public class questionInJava {
+    public static void main(String[] args) {
+        String words = "One Two Three Four";
+        int countWords = words.split("\\s").length;
+        System.out.println(countWords);
+    }
+}
