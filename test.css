@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Jost-Regular";
+    src: url("https://cdn.shopify.com/s/files/1/0753/1056/3627/files/Jost-Regular_2d97e685-1ae7-48c1-86a3-29946e3c14cc.ttf?v=1683287222");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Jost-Bold";
+    src: url("https://cdn.shopify.com/s/files/1/0753/1056/3627/files/Jost-700-Bold.ttf?v=1684145274");
+    font-display: swap;
+}
+/* .button__cell { background: {{ shop.email_accent_color }}; } */
+/* a, a:hover, a:active, a:visited { color: {{ shop.email_accent_color }}; } */
+.custom_email_template_padding {
+    padding: 0 35px;
+}
+.email_template_hidden {
+    display: none !important;
+}
+.email_template_header {
+    text-align: center;
+}
+.email_template_gif_section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7%;
+}
+.email_template_gif_section .gif_image {
+    max-width: 265px;
+}
+.email_template_gif_section .gif_image img {
+    width: 100%;
+    height: auto;
+}
+.gif_section_right_side_content .gif_section_title {
+    color: #000;
+    font-size: 30px;
+    font-family: "Jost-Bold";
+}
+.gif_section_right_side_content .gif_section_description {
+    color: #000;
+    font-family: "Jost-Regular";
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.email_template_order_status {
+    background: #E9E9E9;
+}
+.order_status_container {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+.order_status_div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    width: 60%;
+}
+.order_status_text {
+    margin: 0;
+}
+.total_items_number,
+.order_final_status {
+    color: #000;
+    font-size: 13px;
+    font-family: "Jost-Bold";
+}
+.order_status_text {
+    color: #000;
+    font-family: "Jost-Regular";
+    font-size: 13px;
+}
